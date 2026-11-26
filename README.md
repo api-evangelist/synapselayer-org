@@ -64,16 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Synapse Layer provides encrypted, MCP‑native memory infrastructure for AI agents, enabling persistent, cross‑agent handover of context with built‑in governance, audit trails, and GDPR‑aligned security. The platform offers free and paid tiers, SDKs for Python and TypeScript, and integrates with AI model providers to securely store and retrieve agent memories.
+Synapse Layer provides trust infrastructure for AI agents, offering a shared memory layer that stores decisions, preferences, and project rules across applications, models, and sessions. It enables AI agents to retain knowledge, avoid redundant problem solving, and securely share information, targeting solo developers, startups, product teams, fintechs, agencies, and autonomous agents worldwide.
 
-**Areas:** AI · Memory · Encryption · MCP · Trust
+**Areas:** Company · AI · Trust · Infrastructure · Agents
 
 ## Synapse Layer on APIs.io
 
 Everything profiled for Synapse Layer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/synapselayer-org/](https://apis.io/providers/synapselayer-org/)** — or go straight to one of the APIs or properties below.
 
-### APIs (4)
+### APIs (5)
 
+- [Synapse Layer API](https://apis.io/apis/synapselayer-org/synapse-layer-api/)
 - [Synapse Layer Discovery API](https://apis.io/apis/synapselayer-org/synapselayer-org-discovery-api/) — Agent discovery and metadata endpoints (served from marketing site)
 - [Synapse Layer Memory API](https://apis.io/apis/synapselayer-org/synapselayer-org-memory-api/) — Store and recall memories
 - [Synapse Layer Onboarding API](https://apis.io/apis/synapselayer-org/synapselayer-org-onboarding-api/) — Anonymous agentic trial onboarding
@@ -109,31 +110,40 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Synapse Layer Domain Security](https://apis.io/security/synapselayer-org/synapselayer-org-domain-security/)
 - [Synapse Layer Vulnerability Disclosure](https://apis.io/security/synapselayer-org/synapselayer-org-vulnerability-disclosure/)
 
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Synapse Layer Plans Pricing](https://apis.io/plans/synapselayer-org/synapselayer-org-plans-pricing/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://synapselayer.org/)
 - [Documentation](https://synapselayer.org/docs)
+- [Getting started](https://synapselayer.org/connect)
 - [API reference](https://synapselayer.org/api-docs)
 - [Pricing](https://synapselayer.org/.well-known/pricing.json)
+- [Support](https://synapselayer.org/terms)
 - [Terms of service](https://synapselayer.org/terms)
 - [Privacy policy](https://synapselayer.org/privacy)
+- [GitHub](https://github.com/SynapseLayer)
 
 ## API Evangelist rating
 
-**Kin Score 50.6** — developing · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 57.6** — strong · rubric 0.27.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 81.7 |
-| Contract quality | 56.5 |
+| Discoverability | 48.3 |
+| Contract quality | 51.6 |
 | Contract governance | 79.1 |
-| Operational transparency | 9.5 |
-| Developer ergonomics | 42.1 |
-| Access clarity | 36.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 63.7 |
 
-**Agent readiness 43.7** — agent-ready (gated down from agent-native)
+**Agent readiness 39.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -144,11 +154,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
-| OpenAPI Examples | verified |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
@@ -159,9 +169,6 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
